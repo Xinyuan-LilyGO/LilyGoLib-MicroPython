@@ -6,7 +6,7 @@
 
 ### `1` Get Started
 
-- 🔧 **[T-LoRa-Pager Arduino IDE Quick Start](./docs/lilygo-t-lora-pager.md)**
+- 🔧 **[T-LoRa-Pager MicroPython IDE Quick Start](./docs/lilygo-t-lora-pager.md)**
 
   
 
