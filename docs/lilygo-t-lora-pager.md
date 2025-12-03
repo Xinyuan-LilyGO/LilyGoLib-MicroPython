@@ -22,19 +22,19 @@
 
    3. Open the folder and open "Arduino Lab for MicroPython.exe".
 
-      ![Arduino1](..\images\Arduino1.png)
+      ![Arduino1](../images/Arduino1.png)
 
    4. Connect the serial port.
 
-      ![Arduino2](..\images\Arduino2.png)
+      ![Arduino2](../images/Arduino2.png)
 
    5. Click Run the program (If you want to Stop the program, please click Stop).
 
-      ![Arduino3](C:\Users\Xinyuan\Desktop\GitHub\LilyGoLib-MicroPython\images\Arduino3.png)
+      ![Arduino3](../images/Arduino3.png)
 
    6. If you want to run the program automatically, please click file and then create a new code named "main.py". Select  "Board" Then write the code into main.py and save it. Reset the T-LoRa-Pager.
 
-      ![Arduino4](..\images\Arduino4.png)
+      ![Arduino4](../images/Arduino4.png)
 
 2. ### Thonny IDE
 
@@ -42,33 +42,33 @@
 
    2. Download version 4.1.7 or the latest version (Choose Linux or macOS or Windows)
 
-      ![thonny1](..\images\thonny1.png)
+      ![thonny1](../images/thonny1.png)
 
    3. After installing the installation package, open Thonny IDE
 
    4. Click Configure interpreter
 
-      ![thonny2](..\images\thonny2.png)
+      ![thonny2](../images/thonny2.png)
 
    5. Select MicroPython (ESP32)
 
-      ![thonny3](..\images\thonny3.png)
+      ![thonny3](../images/thonny3.png)
 
    6. Select the corresponding port number and confirm
 
-      ![thonny4](..\images\thonny4.png)
+      ![thonny4](../images/thonny4.png)
 
    7. Test run the program (Print "hello world" below is OK. You can use the shortcut key F5 to run the program and ctrl+F2 to end it)
 
       `print("hello world")`
 
-      ![thonny5](..\images\thonny5.png)
+      ![thonny5](../images/thonny5.png)
 
    8. If you want to run the program automatically, please click Save, then select MicroPython device and name it main.py
 
-      ![thonny6](..\images\thonny6.png)
+      ![thonny6](../images/thonny6.png)
 
-      ![thonny7](..\images\thonny7.png)
+      ![thonny7](../images/thonny7.png)
 
    9. After successful saving, reset the T-LoRa-Pager
 
@@ -102,4 +102,3 @@
 > 
 >1. Connect the board via the USB-C cable
 > 2. Hold down the **BOOT** key and press the **RST** key simultaneously
->
