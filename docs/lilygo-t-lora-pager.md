@@ -22,7 +22,7 @@
 
    3. Open the folder and open "Arduino Lab for MicroPython.exe".
 
-      ![Arduino1](..\images\Arduino1.png)
+      ![Arduino1](../images/Arduino1.png)
 
    4. Connect the serial port.
 
