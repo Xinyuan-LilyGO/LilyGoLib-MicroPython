@@ -2,7 +2,7 @@
  * @file      helloworld.py
  * @license   MIT
  * @copyright Copyright (c) 2025  ShenZhen XinYuan Electronic Technology Co., Ltd
- * @date      2025-09-25
+ * @date      2025-12-25
  '''
 from machine import SPI, Pin, I2C
 import sys
@@ -53,14 +53,15 @@ scrn.set_style_bg_color(lv.color_hex(0x000000), 0)
 
 label = lv.label(scrn)
 label.set_text('Hello World')
+label.set_style_text_font(lv.font_montserrat_32,0)
 label.center()
 
 btn = lv.button(scrn)
 btn.set_size(120, 50) 
-btn.align(lv.ALIGN.CENTER, 0, 40) 
+btn.align(lv.ALIGN.CENTER, 0, 50) 
 btn_label = lv.label(btn)
 btn_label.set_text("Button")
-btn_label.set_style_text_font(lv.font_montserrat_16,0)
+btn_label.set_style_text_font(lv.font_montserrat_24,0)
 btn_label.center()
 
 import task_handler

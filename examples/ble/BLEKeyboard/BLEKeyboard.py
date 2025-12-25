@@ -364,7 +364,7 @@ scrn = lv.screen_active()
 scrn.set_style_bg_color(lv.color_hex(0x000000), 0)
 
 label = lv.label(scrn)
-label.set_text("BLE Mouse example\n 1.Turn on your phone's Bluetooth and search\n 2. Click Connect and the device will act as a mouse device\n Use a rotary encoder to simulate a mouse middle\n button scroll wheel operation")
+label.set_text("Keyboard example\n 1.Turn on your phone's Bluetooth and search\n 2. Click Connect and the device will act as a keyboard device")
 label.center()
 
 task_handler.TaskHandler(33)
